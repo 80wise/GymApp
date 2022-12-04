@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/trainingCard"
+    android:layout_width="250dp"
+    android:layout_height="230dp"
+    app:cardCornerRadius="25dp"
+    app:cardElevation="5dp"
+    android:padding="5dp"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Name" />
+
+        <RadioButton
+            android:id="@+id/done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="10dp" />
+
+        <ImageView
+            android:id="@+id/picture"
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:layout_below="@id/name"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_jogging" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/picture"
+            android:padding="10dp"
+            android:text="Description" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

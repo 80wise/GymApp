@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Gym App</string>
+    <string name="name">name</string>
+    <string name="description">description</string>
+    <string name="picture">pictureUrl</string>
+    <string name="selectedExercise">exercise</string>
+    <string name="Exercise">exercise</string>
+    <string name="bundle">bundle</string>
+</resources>
